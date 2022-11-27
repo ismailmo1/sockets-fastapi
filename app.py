@@ -3,7 +3,6 @@ from time import sleep
 
 from fastapi import FastAPI, WebSocket
 from starlette.websockets import WebSocketDisconnect
-from websockets.exceptions import ConnectionClosedError
 
 app = FastAPI()
 
